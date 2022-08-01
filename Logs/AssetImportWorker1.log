@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16304 MB
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16258 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/Naiz/naiz-advanture-master
+C:/Users/Nofan/Unity/naizAdvanture
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-20842
-Successfully changed project path to: D:/Naiz/naiz-advanture-master
-D:/Naiz/naiz-advanture-master
+61541
+Successfully changed project path to: C:/Users/Nofan/Unity/naizAdvanture
+C:/Users/Nofan/Unity/naizAdvanture
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,108 +47,165 @@ D:/Naiz/naiz-advanture-master
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 90.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 180.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Naiz/naiz-advanture-master/Assets
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nofan/Unity/naizAdvanture/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
-    Vendor:   NVIDIA
-    VRAM:     4018 MB
-    Driver:   30.0.14.9649
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   Intel
+    VRAM:     2048 MB
+    Driver:   20.19.15.5126
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005838 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009151 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 217.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.629 seconds
+- Completed reload, in  1.506 seconds
 Domain Reload Profiling:
-	ReloadAssembly (629ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (1507ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (447ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (188ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (101ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (271ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (585ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (218ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005922 seconds.
+Registered in 0.010801 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Naiz\naiz-advanture-master\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Naiz\naiz-advanture-master\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nofan\Unity\naizAdvanture\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nofan\Unity\naizAdvanture\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 89.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 180.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
+- Completed reload, in  2.523 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1266ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (2525ms)
+		BeginReloadAssembly (222ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1043ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1767ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
+			SetupTypeCache (472ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (570ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (995ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (180ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (585ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3887 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (130.2 KB). Loaded Objects now: 4369.
-Memory consumption went from 165.1 MB to 165.0 MB.
-Total: 3.915300 ms (FindLiveObjects: 0.387100 ms CreateObjectMapping: 0.305200 ms MarkObjects: 3.086300 ms  DeleteObjects: 0.135800 ms)
+Unloading 3895 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (131.8 KB). Loaded Objects now: 4352.
+Memory consumption went from 152.1 MB to 152.0 MB.
+Total: 17.546000 ms (FindLiveObjects: 0.844700 ms CreateObjectMapping: 0.771500 ms MarkObjects: 15.504000 ms  DeleteObjects: 0.422800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012361 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nofan\Unity\naizAdvanture\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nofan\Unity\naizAdvanture\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.355 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3356ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2855ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (884ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (1516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (1120ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (491.3 KB). Loaded Objects now: 4369.
+Memory consumption went from 151.2 MB to 150.7 MB.
+Total: 12.430900 ms (FindLiveObjects: 2.023000 ms CreateObjectMapping: 1.239900 ms MarkObjects: 8.430500 ms  DeleteObjects: 0.732900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,82 +219,94 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 833.260209 seconds.
-  path: Assets/Stylized Dungeon - Free Pack/Materials
-  artifactKey: Guid(0a8cf580a34b549fc980149ba1710621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Dungeon - Free Pack/Materials using Guid(0a8cf580a34b549fc980149ba1710621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb86d307473338927bf976b73a0b43e') in 0.007945 seconds 
+  Time since last request: 4069.900723 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/Terrain.asset
+  artifactKey: Guid(ff9165fc59bd94b408a0176b96399457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/Terrain.asset using Guid(ff9165fc59bd94b408a0176b96399457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4cfcbf847657646bfe632577884fb4') in 25.792814 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.286109 seconds.
-  path: Assets/Stylized Dungeon - Free Pack/Materials/concret_M.mat
-  artifactKey: Guid(78ee9488b36ec4d79aa10c61c389cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Dungeon - Free Pack/Materials/concret_M.mat using Guid(78ee9488b36ec4d79aa10c61c389cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6ec56395b29dd1eeb102ead62a910b') in 0.769918 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_7e16f1f8-5372-45a0-a5ed-524be5363a81.asset
+  artifactKey: Guid(b5b1e87f03c4e9a4486c2fb44a4feeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_7e16f1f8-5372-45a0-a5ed-524be5363a81.asset using Guid(b5b1e87f03c4e9a4486c2fb44a4feeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6079d252aa3227953abdf9964b66b8bf') in 0.038734 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Stylized Dungeon - Free Pack/Materials/pillar_01_M.mat
-  artifactKey: Guid(0a457b6f56662445abff9f2343dfa3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Dungeon - Free Pack/Materials/pillar_01_M.mat using Guid(0a457b6f56662445abff9f2343dfa3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c239081c53db19a7f5916a7b97c8840') in 0.034717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Stylized Dungeon - Free Pack/Materials/floor1_textureSet_Diffuse.mat
-  artifactKey: Guid(39fbeb9b0d76945babdae4d7774723eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Dungeon - Free Pack/Materials/floor1_textureSet_Diffuse.mat using Guid(39fbeb9b0d76945babdae4d7774723eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2304bfaa8c208d1c43d22e8042d7a2e') in 0.013416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Stylized Dungeon - Free Pack/Materials/door_01_M.mat
-  artifactKey: Guid(9733a4a9f1e234ec780b2762716c8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Dungeon - Free Pack/Materials/door_01_M.mat using Guid(9733a4a9f1e234ec780b2762716c8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb1d13daa04918bb50b0e8b7a803369') in 0.053143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.189482 seconds.
-  path: Assets/Stylized Dungeon - Free Pack/Textures/pillar_01/pillar_LP_textureSet_Metallic.png
-  artifactKey: Guid(c37772788e505452bafa2d421e276323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Dungeon - Free Pack/Textures/pillar_01/pillar_LP_textureSet_Metallic.png using Guid(c37772788e505452bafa2d421e276323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3070dd30405daff65450137d63df0e') in 0.060581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1842.876570 seconds.
-  path: Assets/Free/Stones/Mesh/Stone_2.fbx
-  artifactKey: Guid(8988c881874f4cb4db33f58b6a8e7416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Stones/Mesh/Stone_2.fbx using Guid(8988c881874f4cb4db33f58b6a8e7416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8538f2d2831e59ca437dfbc21b1ee971') in 0.204219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Free/Stones/Mesh/Stone_5.fbx
-  artifactKey: Guid(1e2ef0cc5c65717479848f40d793d3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Stones/Mesh/Stone_5.fbx using Guid(1e2ef0cc5c65717479848f40d793d3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e0e5f789e3bbd81010b3803ae9a176') in 0.043193 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_6d67a9a6-4405-473e-b381-512a72ddb2d7.asset
+  artifactKey: Guid(ae9bdd4293593df4e98922750bb93ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_6d67a9a6-4405-473e-b381-512a72ddb2d7.asset using Guid(ae9bdd4293593df4e98922750bb93ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bf3c80502bf2be8db4462a3141c0f1') in 0.066294 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Free/Stones/Mesh/Stone_4.fbx
-  artifactKey: Guid(043111edfa1d129478e041d0c2a324c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free/Stones/Mesh/Stone_4.fbx using Guid(043111edfa1d129478e041d0c2a324c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62027ce22087efcc1777649c3005688') in 0.023007 seconds 
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_06c41ac0-5302-4df9-86e5-8e7b8e223183.asset
+  artifactKey: Guid(9cef14a96268f19418e6fb55ad42b8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_06c41ac0-5302-4df9-86e5-8e7b8e223183.asset using Guid(9cef14a96268f19418e6fb55ad42b8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffdf514395d5f52cf3d361da5f7cadb') in 0.050602 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 630.417221 seconds.
-  path: Assets/Monster_Orc (Troll)/Material/Eyes.mat
-  artifactKey: Guid(771d9ffb181b64a388bbdac511256915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster_Orc (Troll)/Material/Eyes.mat using Guid(771d9ffb181b64a388bbdac511256915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c015a99ac752cf0eb52ee460bf826ca8') in 0.275233 seconds 
+  Time since last request: 0.000054 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_0f0c4fbd-dced-41d0-9dea-4d113625afe1.asset
+  artifactKey: Guid(df5df782276b2844886c26eefe3d32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_0f0c4fbd-dced-41d0-9dea-4d113625afe1.asset using Guid(df5df782276b2844886c26eefe3d32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f2a43c2a68a227a466992ab9d12240') in 0.065934 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.185654 seconds.
-  path: Assets/Monster_Orc (Troll)/Meshes/monster_non_anim_orc.fbx
-  artifactKey: Guid(3f305f1e0da934d30b7fa123a25b4edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster_Orc (Troll)/Meshes/monster_non_anim_orc.fbx using Guid(3f305f1e0da934d30b7fa123a25b4edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b0d5f03715260b22f7a55ddd3f47dc') in 0.569137 seconds 
+  Time since last request: 0.000058 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_6bb285ce-7783-4179-b9a0-420d88606e3b.asset
+  artifactKey: Guid(9dbd3422eef66f04e9c49f15774cd869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_6bb285ce-7783-4179-b9a0-420d88606e3b.asset using Guid(9dbd3422eef66f04e9c49f15774cd869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858a3bfa1f03487b7f7ed7a29bd9ac1a') in 0.104295 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Monster_Orc (Troll)/Prefabs/monster_non_anim_orc.prefab
-  artifactKey: Guid(cb2551d5c39ec4700b19f3b57c030da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster_Orc (Troll)/Prefabs/monster_non_anim_orc.prefab using Guid(cb2551d5c39ec4700b19f3b57c030da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b85044e146e355aca76699132ef330') in 0.044024 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_4a26182f-dd98-4453-8284-7bb84b370f56.asset
+  artifactKey: Guid(716869e016c92a34fb3be00d11756da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_4a26182f-dd98-4453-8284-7bb84b370f56.asset using Guid(716869e016c92a34fb3be00d11756da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197e82e1e3e9ffd845ddcfeb87e67711') in 0.085892 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001488 seconds.
-  path: Assets/Monster_Orc (Troll)/Prefabs/monster_orc.prefab
-  artifactKey: Guid(71c2b86e4d7bc49b894c67d7b7a7b83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster_Orc (Troll)/Prefabs/monster_orc.prefab using Guid(71c2b86e4d7bc49b894c67d7b7a7b83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7b6cb1836a9e84015110618c427e05') in 0.129819 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_7bf2c6f0-7194-4f13-87e5-c97f7342b58e.asset
+  artifactKey: Guid(244e43943a3c20947865f88642a67687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_7bf2c6f0-7194-4f13-87e5-c97f7342b58e.asset using Guid(244e43943a3c20947865f88642a67687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d7b178f0fa36b5a402f07fc5e1def0') in 0.091552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_1cb589fe-e72b-4d4c-b9a9-cd32d624cd2e.asset
+  artifactKey: Guid(746f70b647a2fc94885c8726ad304396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_1cb589fe-e72b-4d4c-b9a9-cd32d624cd2e.asset using Guid(746f70b647a2fc94885c8726ad304396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7db86355220617bd5a7e99bd1bbebc2') in 0.070597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_3c849cfa-8d8c-40f6-bee6-8ed2771a3344.asset
+  artifactKey: Guid(cdff7088baefbb14ca0ff49ce5e2ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_3c849cfa-8d8c-40f6-bee6-8ed2771a3344.asset using Guid(cdff7088baefbb14ca0ff49ce5e2ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f776538721dd8d8bbc960f2743bac00') in 0.065985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_7ea59daa-40c7-4455-a20d-313c69c40c38.asset
+  artifactKey: Guid(a32db9505e82d56419ca6632fa10c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_7ea59daa-40c7-4455-a20d-313c69c40c38.asset using Guid(a32db9505e82d56419ca6632fa10c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f14f9d894e1a7899108927b7c614f6') in 0.046001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stylized Dungeon - Free Pack/TerrainData_8dc0cb4f-ed27-449d-89ec-a10dd938bd32.asset
+  artifactKey: Guid(d631b8b3dddb68e4789be51d15ce9683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Dungeon - Free Pack/TerrainData_8dc0cb4f-ed27-449d-89ec-a10dd938bd32.asset using Guid(d631b8b3dddb68e4789be51d15ce9683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e5a324e84da98795447d04719b3b4e') in 0.117804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4732.314733 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentArmature_Unpack.prefab
+  artifactKey: Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentArmature_Unpack.prefab using Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2080e09f6e9040d95aafcf3601522c') in 1.249603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002223 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerFollowCamera.prefab
+  artifactKey: Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f747a801cc1e571903d298cfe07a8b3a') in 0.034097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab
+  artifactKey: Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab using Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e8a9235955d1d1eb9fbc38cf72829d') in 0.409809 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

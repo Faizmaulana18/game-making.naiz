@@ -15,7 +15,7 @@ D:/Naiz/naiz-advanture-master
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-1062
+20842
 Successfully changed project path to: D:/Naiz/naiz-advanture-master
 D:/Naiz/naiz-advanture-master
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Naiz/naiz-advanture-master
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,44 +63,272 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009568 seconds.
+Registered in 0.005850 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 6140.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 12.688 seconds
+- Completed reload, in  0.607 seconds
 Domain Reload Profiling:
-	ReloadAssembly (12688ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (608ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (12492ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (779ms)
+			SetupTypeCache (98ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (6475ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (263ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (6140ms)
+				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006491 seconds.
+Registered in 0.005558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Naiz\naiz-advanture-master\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Naiz\naiz-advanture-master\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 96.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1108ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3887 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (129.5 KB). Loaded Objects now: 4370.
+Memory consumption went from 165.2 MB to 165.1 MB.
+Total: 3.114900 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.201600 ms MarkObjects: 2.529000 ms  DeleteObjects: 0.089400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7759.118535 seconds.
+  path: Assets/photorealisticStones/Prefabs/stone_13.prefab
+  artifactKey: Guid(bec5527a8490b524696a6ab7a2993759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/photorealisticStones/Prefabs/stone_13.prefab using Guid(bec5527a8490b524696a6ab7a2993759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a73d4e76c46d2a2638b2b79d9d26549') in 0.497219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.899256 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Materials/Mat_CrackyCliffs.mat
+  artifactKey: Guid(0b81079eb3263e64893cd35a5dbdc310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Materials/Mat_CrackyCliffs.mat using Guid(0b81079eb3263e64893cd35a5dbdc310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff27856160557e23d95e0760a341b31') in 0.112450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Materials/Mat_MossCliffs.mat
+  artifactKey: Guid(7f05a065dbdc1e14dac7737249bc8319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Materials/Mat_MossCliffs.mat using Guid(7f05a065dbdc1e14dac7737249bc8319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7496d0628d9821d6e64011bda707387c') in 0.026369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Materials/Mat_SnowCliffs.mat
+  artifactKey: Guid(c80702c54bef3774caa7cfa1fdffc92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Materials/Mat_SnowCliffs.mat using Guid(c80702c54bef3774caa7cfa1fdffc92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dc01fcc138121b718ec5b155cb2633') in 0.022381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.177466 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_LargeStone_3.prefab
+  artifactKey: Guid(95c3dbe6b99c5794d936b8a017b7b0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_LargeStone_3.prefab using Guid(95c3dbe6b99c5794d936b8a017b7b0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3fc31ed24fe9eac9f3e1d209ce83c3') in 0.028855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_SmallStone_1.prefab
+  artifactKey: Guid(25d05f2cfdc29894d9a0c7690387f4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_SmallStone_1.prefab using Guid(25d05f2cfdc29894d9a0c7690387f4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c65e2b9d8c0abe74f63f3b6ef6d1b6') in 0.034243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_MediumStone_3.prefab
+  artifactKey: Guid(3a92c4e6546ba3146b844b08ae180fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_MediumStone_3.prefab using Guid(3a92c4e6546ba3146b844b08ae180fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeab3f2e97d7e447f7f6dbd73769a59f') in 0.049639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_MediumStone_2.prefab
+  artifactKey: Guid(2b9f1e7e38b05824cb39e4d1b5a4fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_MediumStone_2.prefab using Guid(2b9f1e7e38b05824cb39e4d1b5a4fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61436550e55c59705edc31d0977753a') in 0.034111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_MediumStone_8.prefab
+  artifactKey: Guid(c12f8a4fb67e70b478b6481d2ad5cd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_MediumStone_8.prefab using Guid(c12f8a4fb67e70b478b6481d2ad5cd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e8a6c4c556954bee8a0446102e683e') in 0.030351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_MediumStone_5.prefab
+  artifactKey: Guid(84a49cf08e87e26499f0ccfc15f0a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_MediumStone_5.prefab using Guid(84a49cf08e87e26499f0ccfc15f0a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b818cde014cdb8d367afd4cc7368e52') in 0.032712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_LargeStone_4.prefab
+  artifactKey: Guid(e51e9a8beddac9a4895c09d699d6b6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_LargeStone_4.prefab using Guid(e51e9a8beddac9a4895c09d699d6b6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b8533a9793a78759d3bc7a2839eb15') in 0.035144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_SmallStone_6.prefab
+  artifactKey: Guid(77faf7c2de439f748b6c40d8308d1f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/Cliffs_Stone_Prefabs_Standart/Cliffs_SmallStone_6.prefab using Guid(77faf7c2de439f748b6c40d8308d1f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dfcc73a9f62cd534ff7419b201a290') in 0.028507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.346094 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_LargeStone_3.prefab
+  artifactKey: Guid(6fcb1754e114c484aae2e0550fc31b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_LargeStone_3.prefab using Guid(6fcb1754e114c484aae2e0550fc31b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c2acd3dcdd8066a87a23805e983039') in 0.030250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_4.prefab
+  artifactKey: Guid(9884920879302404c890687d0911af8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_4.prefab using Guid(9884920879302404c890687d0911af8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab24294ac419fe9e4f066e8dc24900d0') in 0.033958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_5.prefab
+  artifactKey: Guid(46beb8517641f0b42b53320102d55156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_5.prefab using Guid(46beb8517641f0b42b53320102d55156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15d384dca6ee999722f5a1bfca7c74e') in 0.035032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_7.prefab
+  artifactKey: Guid(7f400847de08ab242b3bbf40abb12475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_7.prefab using Guid(7f400847de08ab242b3bbf40abb12475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec26a364d961cc782410e788050fac1f') in 0.028042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_3.prefab
+  artifactKey: Guid(fbeac662431e07c41a01323afd76b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_3.prefab using Guid(fbeac662431e07c41a01323afd76b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82008b8ff030a5fa13249dcac0cbcee') in 0.030986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_SmallStone_1.prefab
+  artifactKey: Guid(ba36f8b86bc3303499cfacf972ae7314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_SmallStone_1.prefab using Guid(ba36f8b86bc3303499cfacf972ae7314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe58cd5f0fc80df858756555e79c4e9') in 0.030869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_2.prefab
+  artifactKey: Guid(29dff65d00877594192fe374b89dd754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_MediumStone_2.prefab using Guid(29dff65d00877594192fe374b89dd754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db741528b774432b9133d3cb1f791bc') in 0.029361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_LargeStone_4.prefab
+  artifactKey: Guid(c3155adbac9d5df44802481617bd1d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/CrackyCliffs_Stone_Prefabs_Standart/CrackyCliffs_LargeStone_4.prefab using Guid(c3155adbac9d5df44802481617bd1d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bffedfc81898f08cf78723775f21ed') in 0.030309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.197940 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_LargeStone_3.prefab
+  artifactKey: Guid(d6a78d392a35a9049954084cffebb1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_LargeStone_3.prefab using Guid(d6a78d392a35a9049954084cffebb1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aee74f61e604f83f60e0a4932388cff') in 0.031601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_MediumStone_10.prefab
+  artifactKey: Guid(133cf0192041129459ae0439e738711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_MediumStone_10.prefab using Guid(133cf0192041129459ae0439e738711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d3f50235f47deaaf4fbb870ec60559') in 0.034698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_SmallStone_6.prefab
+  artifactKey: Guid(a0d06baccc58c3a41bbe97721d893936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_SmallStone_6.prefab using Guid(a0d06baccc58c3a41bbe97721d893936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f6c1cefee95f5324e03c3917ca8133') in 0.035816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_MediumStone_3.prefab
+  artifactKey: Guid(3a05f30253de5f24fa4b25c174861a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_MediumStone_3.prefab using Guid(3a05f30253de5f24fa4b25c174861a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f5217f406d4fc0df632c9d34acd07c') in 0.037877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_SmallStone_4.prefab
+  artifactKey: Guid(a05ef85da0be01c47b5639e97619996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_SmallStone_4.prefab using Guid(a05ef85da0be01c47b5639e97619996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b483c99cf0c9430be030b3b1d33ad285') in 0.035094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_MediumStone_9.prefab
+  artifactKey: Guid(4364935d88019c74cb5172f22c9984fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_MediumStone_9.prefab using Guid(4364935d88019c74cb5172f22c9984fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bf07181cbe4c1ccb28eccdee769682') in 0.031137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_SmallStone_5.prefab
+  artifactKey: Guid(7e130d5a33a061a4db7af3e96762f15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_SmallStone_5.prefab using Guid(7e130d5a33a061a4db7af3e96762f15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e320d8e011c92fdcf5d6663dd5e8f5e4') in 0.026621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_MediumStone_2.prefab
+  artifactKey: Guid(4c77ec39b6e2e4d46a0e95568e1c6fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Rock_Cliffs_Pack/Prefabs/Standart_Stone_Prefabs/SnowCliffs_Stone_Prefabs_Standart/SnowCliffs_MediumStone_2.prefab using Guid(4c77ec39b6e2e4d46a0e95568e1c6fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d060ac38aa9d7848569a41b4f2f64c') in 0.036535 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
